@@ -22,3 +22,8 @@ img {
 .color-h2 {
     color:blue;
 }
+
+/*pseudo-class selector*/
+h1:hover, h2:hover, p:hover {
+    color:yellow;
+  }
