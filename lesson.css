@@ -2,11 +2,23 @@
 h1, h2 {
     text-align: center;
 }
+
+img {
+    width:250px;
+    height: 250px;
+}
+
 /*ID szelektor*/
-#second-article {
-    background: lightblue;
-  }
+ #color-background {
+    background: blue;
+    color:white;
+}
+
  /* class szelektor*/ 
- .circle-picture {
+.circle-picture {
     border-radius: 50%;
-   }
+}
+   
+.color-h2 {
+    color:blue;
+}
