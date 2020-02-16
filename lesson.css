@@ -1,4 +1,8 @@
-/* szöveg középre rendezése*/
+/* típus szelektor*/
 h1, h2 {
     text-align: center;
 }
+/*ID szelektor*/
+#second-article {
+    background: lightblue;
+  }
