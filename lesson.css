@@ -6,3 +6,7 @@ h1, h2 {
 #second-article {
     background: lightblue;
   }
+ /* class szelektor*/ 
+ .circle-picture {
+    border-radius: 50%;
+   }
