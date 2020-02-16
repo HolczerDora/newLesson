@@ -24,6 +24,12 @@ img {
 }
 
 /*pseudo-class selector*/
-h1:hover, h2:hover, p:hover {
+h1:hover, h2:hover {
     color:yellow;
   }
+
+/*pseudo-element selector*/
+p::first-letter {
+    font-family:'Cinzel Decorative', cursive;
+    font-size: 32px;
+}
