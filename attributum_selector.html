@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="description" content="[attributum selector]">
-  <title>Pseudo-class, multiple and attribute selectors</title>
+<meta name="description" content="newLesson on GitHub">
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700&display=swap" rel="stylesheet">
+    <title>Learning about CSS selectors</title>
 </head>
 <body>
-  <h1>Our furnitures</h1>
-  <p>Here is an introduction of the company</p> 
-  <ul>
-    <li data-room="kitchen" data-furniture="table">Dining table</li>
-    <li data-room="living-room" data-furniture="table">Coffee table</li>
-    <li data-room="child-room" data-furniture="table">Office desk</li>
-    <li data-room="bathroom" data-furniture="bathroom-cabinet">Bathroom cabinet</li>
-  </ul>
-  <a href="#">Order here!</a>
-  <a href="https://jsbin.com/tukadig/edit?html,css,output">Look this task in JSBIN!</a>
+    <header>
+        <h1>Learning about CSS selectors</h1>
+      <p>Ez a paragrafus csak azért van itt hogy lássam a különbséget a paragrafusok között.Mert erre a részre nincs külön css szabály....kivéve a pseudo -element selectort :) ami ugye az inicializálásért felel.</p>
+    </header>
+    <main>
+        <article >
+            <h2 class="color-h2">Type Selectors</h2>
+            <img class="circle-picture" src="https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="coding 1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.</p>
+        </article>
+        <article id="color-background">
+            <h2>ID selectors</h2>
+            <img class="circle-picture" src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="coding 2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.</p>
+        </article>
+        <article>
+            <h2 class="color-h2">Class selectors</h2>
+            <img class="circle-picture" src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE3MzYxfQ&auto=format&fit=crop&w=1950&q=80" alt="coding 3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.</p>
+        </article>
+        <a href="https://jsbin.com/bawinav/edit?html,css,output">Look this task in JSBIN!</a>
+    </main>
+  <article>
+    <h1>Kombinatorok használata</h1>
+    <h4>Descendant-leszármaztatott szelektorok</h4>
+    <h4>Child - gyermek szelektorok</h4>
+    <h4>Adjacent sibling - közvetlen testvér szelektorok</h4>
+    <h4>General sibling - szelektorok</h4>
+    <section>
+    <h2>Címsor ami a pseudo-class selector miatt színes lesz a hovernél</h2>
+    <p>A child szelektor kiválasztja ezt a paragrafust.</p>
+    <p>És ezt a paragrafust.</p>
+<article>
+        <p>Ezt a paragrafust viszont nem, mert nem közvetlen gyermeke az section elemnek.</p>
+      </article>
+    </section>
+</article>
+    </section>
+  </article>
 </body>
 </html>

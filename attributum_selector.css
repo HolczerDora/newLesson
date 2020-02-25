@@ -1,7 +1,69 @@
-[data-room]:hover {
+/* típus szelektor*/
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    width:250px;
+    height: 250px;
+}
+
+/*ID szelektor*/
+ #color-background {
+    background: blue;
+    color:white;
+}
+
+ /* class szelektor*/ 
+.circle-picture {
+    border-radius: 50%;
+}
+   
+.color-h2 {
+    color:blue;
+}
+
+/*pseudo-class selector*/
+h1:hover, h2:hover {
+    color:yellow;
+}
+
+/*pseudo-element selector*/
+p::first-letter {
+    font-family:'Cinzel Decorative', cursive;
+    font-size: 32px;
+}
+
+/*kombinatorok  használata*/
+/*Descendant*/
+article h4 {
+    color:pink;
+}
+/*child selector*/
+section > p {
+    color: orange;
+}
+
+/*Adjacent sibling - minden kép után következő paragrafus szöveget formázza*/
+img + p {
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial;
+}
+
+img ~ p {
+    text-align: right;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+}[data-room]:hover {
     color:green;
     }
     
     a:hover {
     color:red;
     }
+article h1 {
+    color:pink;
+}    
